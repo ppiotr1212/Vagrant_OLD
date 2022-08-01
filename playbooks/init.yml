@@ -8,9 +8,9 @@
       - vagrant
     docker_daemon_options:
       insecure-registries : ["192.168.44.44:8082"]
-    # awscliconf_path: "/home/panda/"
-    # awscliconf_files_owner: "panda"
-    # awscliconf_files_group: "panda"
+     awscliconf_path: "/home/panda/"
+     awscliconf_files_owner: "panda"
+     awscliconf_files_group: "panda"
     # awscliconf_files:
     #   credentials:
     #     - default:
@@ -27,3 +27,4 @@
     - geerlingguy.docker
     - christiangda.awscli
     - christiangda.awscli_configure
+    - diodonfrost.terraform
